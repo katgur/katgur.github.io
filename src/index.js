@@ -17,9 +17,6 @@ const content = (
 
 root.render(
   <Router>
-    <Routes>
-      <Route to='/' element={content} />
-    </Routes>
     <TodoApp />
     <AdminApp />
   </Router>
