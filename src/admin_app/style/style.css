@@ -1,0 +1,61 @@
+.input-blue__filled {
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #EFF6FF;
+    caret-color: #18338C;
+}
+
+.input-blue__outline {
+    border: 1px solid #3B82F6;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: smaller;
+}
+
+.input-blue__outline::placeholder {
+    font-size: x-small;
+    position: relative;
+    top: -12px;
+}
+
+.input-blue__outline:focus::placeholder {
+    color: transparent;
+}
+
+.button__filled {
+    padding: 10px 20px;
+    color: white;
+    background-color: #3B82F6;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button__filled:hover {
+    padding: 10px 20px;
+    color: white;
+    background-color: #1D4ED8;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button__outline {
+    padding: 8.5px 18.5px;
+    color: #3B82F6;
+    border-radius: 50px;
+    border: 1.5px solid #3B82F6;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button__outline:hover {
+    padding: 8.5px 18.5px;
+    color: #1D4ED8;
+    border-radius: 50px;
+    border: 1.5px solid #1D4ED8;
+    font-weight: 600;
+    cursor: pointer;
+}
