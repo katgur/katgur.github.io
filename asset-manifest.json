@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d572308.css",
-    "main.js": "/static/js/main.ff64dee0.js",
+    "main.css": "/static/css/main.24e90a14.css",
+    "main.js": "/static/js/main.253acd9f.js",
     "static/media/PTSans-Bold.ttf": "/static/media/PTSans-Bold.610bc32a7e32c292ce59.ttf",
     "static/media/PTSans-Regular.ttf": "/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
     "static/media/Nunito-Regular.ttf": "/static/media/Nunito-Regular.99a3b019e7727ac19479.ttf",
     "static/media/no-profile-picture-icon.webp": "/static/media/no-profile-picture-icon.d426b01a8f2407fdb23e.webp",
     "index.html": "/index.html",
     "static/media/v_menu.svg": "/static/media/v_menu.00718a1306e1a62aee5aaeb47719ae51.svg",
-    "static/media/checked.svg": "/static/media/checked.c2f1e4cfb059485c11fb.svg",
-    "main.4d572308.css.map": "/static/css/main.4d572308.css.map",
-    "main.ff64dee0.js.map": "/static/js/main.ff64dee0.js.map"
+    "main.24e90a14.css.map": "/static/css/main.24e90a14.css.map",
+    "main.253acd9f.js.map": "/static/js/main.253acd9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d572308.css",
-    "static/js/main.ff64dee0.js"
+    "static/css/main.24e90a14.css",
+    "static/js/main.253acd9f.js"
   ]
 }
