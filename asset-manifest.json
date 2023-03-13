@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff7276a8.css",
-    "main.js": "/static/js/main.06839181.js",
+    "main.js": "/static/js/main.9c354dc9.js",
     "static/media/PTSans-Bold.ttf": "/static/media/PTSans-Bold.610bc32a7e32c292ce59.ttf",
     "static/media/PTSans-Regular.ttf": "/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
     "static/media/Nunito-Regular.ttf": "/static/media/Nunito-Regular.99a3b019e7727ac19479.ttf",
@@ -9,10 +9,10 @@
     "index.html": "/index.html",
     "static/media/v_menu.svg": "/static/media/v_menu.00718a1306e1a62aee5aaeb47719ae51.svg",
     "main.ff7276a8.css.map": "/static/css/main.ff7276a8.css.map",
-    "main.06839181.js.map": "/static/js/main.06839181.js.map"
+    "main.9c354dc9.js.map": "/static/js/main.9c354dc9.js.map"
   },
   "entrypoints": [
     "static/css/main.ff7276a8.css",
-    "static/js/main.06839181.js"
+    "static/js/main.9c354dc9.js"
   ]
 }
