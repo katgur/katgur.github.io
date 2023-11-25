@@ -127,16 +127,21 @@
                 <span class="before-after__text_type_costs">Затраты на питание: 15&nbsp;000&nbsp;руб.</span>
             </p>
             <div class="before-after__toggle">
-                <picture>
-                    <source media="(min-width: 700px)"
-                        srcset="./images/before-desktop.png 1x, ./images/before-desktop@2x.png 2x">
-                    <img class="before-after__image" src="images/before-mobile.png"
-                        srcset="./images/before-mobile@2x.png 2x" />
-                </picture>
+                <div class="before-after__picture" style="display: grid; transition: initial; grid-template-columns: 1fr 50%;">
+                    <picture>
+                        <source media="(min-width: 700px)"
+                            srcset="./images/after-tablet@2x.png">
+                        <img class="before-after__image before-after__image--after" src="images/after-mobile@2x.png" />
+                    </picture>
+                    <picture>
+                        <source media="(min-width: 700px)" srcset="./images/before-tablet@2x.png">
+                        <img class="before-after__image before-after__image--before" src="images/before-mobile@2x.png" />
+                    </picture>
+                </div>
                 <div class="before-after__slider">
-                    <span class="before-after__text_type_toggle">Было</span>
+                    <span class="before-after__text_type_toggle before-after__text_type_toggle--before">Было</span>
                     <input class="before-after__slider-input" type="range" />
-                    <span class="before-after__text_type_toggle">Стало</span>
+                    <span class="before-after__text_type_toggle before-after__text_type_toggle--after">Стало</span>
                 </div>
             </div>
         </section>
@@ -168,7 +173,7 @@
     </footer>
     <script src="js/menu.js"></script>
     <script src="js/animate.js"></script>
-    <script src="js/svg4everybody.min.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>
