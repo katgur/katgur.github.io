@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Energy</title>
     <link rel="stylesheet" href="style/index.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Cat Energy - Функциональное питание для котов">
+    <meta name="og:title" content="Cat Energy">
+    <meta name="og:description" content="Cat Energy - Функциональное питание для котов">
+    <meta name="og:image" content="images/index-background-mobile.png">
 </head>
 
 <body>
@@ -13,19 +19,19 @@
             <picture>
                 <source media="(min-width: 1200px)" srcset="images/ico-cat-big.svg">
                 <source media="(min-width: 700px)" srcset="images/ico-cat-medium.svg">
-                <img class="header__logo" src="images/ico-cat-small.svg" />
+                <img class="header__logo" src="images/ico-cat-small.svg" alt="Logo">
             </picture>
             <picture>
-                <source media="(min-width: 700px)" src="images/logo-name-tablet.svg">
-                <img src="images/logo-name.svg" />
+                <source media="(min-width: 700px)" srcset="images/logo-name-tablet.svg">
+                <img src="images/logo-name.svg" alt="Logo">
             </picture>
-            <img class="header__icon" src="images/mobile-menu.svg" />
+            <img class="header__icon" src="images/mobile-menu.svg" alt="Logo">
         </div>
-        <menu class="header__menu">
+        <nav class="header__menu">
             <a class="header__item header__item_color_accent" href="index.html">Главная</a>
             <a class="header__item header__item_color_accent" href="catalog.html">Каталог продукции</a>
             <a class="header__item header__item_color_accent" href="form.html">Подбор программы</a>
-        </menu>
+        </nav>
     </header>
     <main class="page">
         <section class="promo promo_type_top">
@@ -37,15 +43,15 @@
                         srcset="./images/index-can-mobile.webp 1x, ./images/index-can-mobile@2x.webp 2x">
                     <source srcset="./images/index-can-mobile.png 1x, ./images/index-can-mobile@2x.png 2x">
                     <img class="promo__image" src="./images/index-can-mobile.png"
-                        srcset="./images/index-can-mobile@2x.png 2x" />
+                        srcset="./images/index-can-mobile@2x.png 2x" alt="Promo">
                 </picture>
-                <button class="promo__button">Подобрать программу</button>
+                <button type="button" class="promo__button">Подобрать программу</button>
             </div>
         </section>
         <ul class="categories">
             <li class="categories__item">
                 <div class="categories__icon">
-                    <img src="images/cat-slim.svg" />
+                    <img src="images/cat-slim.svg" alt="Slim">
                 </div>
                 <h2 class="categories__title">Похудение</h2>
                 <div class="categories__content">
@@ -57,12 +63,12 @@
                 </div>
                 <div class="categories__arrow">
                     <span class="categories__text_type_arrow">Каталог Slim</span>
-                    <img src="images/right-arrow-long.svg" />
+                    <img src="images/right-arrow-long.svg" alt="arrow">
                 </div>
             </li>
             <li class="categories__item">
                 <div class="categories__icon">
-                    <img src="images/cat-pro.svg" />
+                    <img src="images/cat-pro.svg" alt="Pro">
                 </div>
                 <h2 class="categories__title">Набор массы</h2>
                 <div class="categories__content">
@@ -72,7 +78,7 @@
                 </div>
                 <div class="categories__arrow">
                     <span class="categories__text_type_arrow">Каталог Pro</span>
-                    <img src="images/right-arrow-long.svg" />
+                    <img src="images/right-arrow-long.svg" alt="arrow">
                 </div>
             </li>
         </ul>
@@ -81,28 +87,28 @@
             <ul class="advantages__list">
                 <li class="advantages__item">
                     <div class="advantages__image">
-                        <img src="images/advantage-1@x1.png" />
+                        <img src="images/advantage-1@x1.png" alt="advantage1">
                     </div>
                     <p class="advantages__text">Функциональное питание содержит только полезные питательные
                         вещества.</p>
                 </li>
                 <li class="advantages__item">
                     <div class="advantages__image">
-                        <img src="images/advantage-2@x1.png" />
+                        <img src="images/advantage-2@x1.png" alt="advantage2">
                     </div>
                     <p class="advantages__text">Выпускается в виде порошка, который нужно лишь залить кипятком и
                         готово.</p>
                 </li>
                 <li class="advantages__item">
                     <div class="advantages__image">
-                        <img src="images/advantage-3@x1.png" />
+                        <img src="images/advantage-3@x1.png" alt="advantage-3">
                     </div>
                     <p class="advantages__text">Замените один-два приема обычной еды на наше функциональное питание.
                     </p>
                 </li>
                 <li class="advantages__item">
                     <div class="advantages__image">
-                        <img src="images/advantage-4@x1.png" />
+                        <img src="images/advantage-4@x1.png" alt="advantage-4">
                     </div>
                     <p class="advantages__text">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
                     </p>
@@ -127,20 +133,21 @@
                 <span class="before-after__text_type_costs">Затраты на питание: 15&nbsp;000&nbsp;руб.</span>
             </p>
             <div class="before-after__toggle">
-                <div class="before-after__picture" style="display: grid; transition: initial; grid-template-columns: 1fr 50%;">
+                <div class="before-after__picture">
                     <picture>
-                        <source media="(min-width: 700px)"
-                            srcset="./images/after-tablet@2x.png">
-                        <img class="before-after__image before-after__image--after" src="images/after-mobile@2x.png" />
+                        <source media="(min-width: 700px)" srcset="./images/after-tablet@2x.png">
+                        <img class="before-after__image before-after__image--after" src="images/after-mobile@2x.png"
+                            alt="pic">
                     </picture>
                     <picture>
                         <source media="(min-width: 700px)" srcset="./images/before-tablet@2x.png">
-                        <img class="before-after__image before-after__image--before" src="images/before-mobile@2x.png" />
+                        <img class="before-after__image before-after__image--before" src="images/before-mobile@2x.png"
+                            alt="pic">
                     </picture>
                 </div>
                 <div class="before-after__slider">
                     <span class="before-after__text_type_toggle before-after__text_type_toggle--before">Было</span>
-                    <input class="before-after__slider-input" type="range" />
+                    <input class="before-after__slider-input" type="range">
                     <span class="before-after__text_type_toggle before-after__text_type_toggle--after">Стало</span>
                 </div>
             </div>
@@ -153,21 +160,24 @@
                 <p class="invite__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
             </div>
             <div class="invite__map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257197582!2d30.320472476300868!3d59.938719162094564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1700938017285!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257197582!2d30.320472476300868!3d59.938719162094564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1700938017285!5m2!1sru!2sru"
+                    width="100%" height="100%" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
         <section class="footer__content">
             <div class="footer__title">
-                <img class="footer__title" src="images/footer-logo.svg" />
+                <img class="footer__title" src="images/footer-logo.svg" alt="pic">
             </div>
             <div class="footer__socials">
-                <img src="images/m-vk.svg" />
-                <img src="images/m-insta.svg" />
-                <img src="images/m-fb.svg" />
+                <img src="images/m-vk.svg" alt="pic">
+                <img src="images/m-insta.svg" alt="pic">
+                <img src="images/m-fb.svg" alt="pic">
             </div>
             <div class="footer__academy">
                 <span class="footer__item">HTML Academy</span>
-                <img class="footer__item" src="images/htmlacademy.svg" />
+                <img class="footer__item" src="images/htmlacademy.svg" alt="pic">
             </div>
         </section>
     </footer>

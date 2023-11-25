@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
     <title>Cat Energy</title>
     <link rel="stylesheet" href="style/index.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Cat Energy - Функциональное питание для котов">
+    <meta name="og:title" content="Cat Energy">
+    <meta name="og:description" content="Cat Energy - Функциональное питание для котов">
+    <meta name="og:image" content="images/index-background-mobile.png">
 </head>
 
 <body>
@@ -13,19 +19,19 @@
             <picture>
                 <source media="(min-width: 1200px)" srcset="images/ico-cat-big.svg">
                 <source media="(min-width: 700px)" srcset="images/ico-cat-medium.svg">
-                <img class="header__logo" src="images/ico-cat-small.svg" />
+                <img class="header__logo" src="images/ico-cat-small.svg" alt="pic">
             </picture>
             <picture>
-                <source media="(min-width: 700px)" src="images/logo-name-tablet.svg">
-                <img src="images/logo-name.svg" />
+                <source media="(min-width: 700px)" srcset="images/logo-name-tablet.svg">
+                <img src="images/logo-name.svg" alt="pic">
             </picture>
-            <img class="header__icon" src="images/mobile-menu.svg" />
+            <img class="header__icon" src="images/mobile-menu.svg" alt="pic">
         </div>
-        <menu class="header__menu">
+        <nav class="header__menu">
             <a class="header__item" href="index.html">Главная</a>
             <a class="header__item" href="catalog.html">Каталог продукции</a>
             <a class="header__item" href="form.html">Подбор программы</a>
-        </menu>
+        </nav>
     </header>
     <main class="page">
         <h1 class="page__title">Подбор программы</h1>
@@ -38,33 +44,33 @@
                     <div class="form__item">
                         <label for="name" class="form__label">Имя:*</label>
                         <input id="name" name="name" class="form__input form__input_type_text" type="text"
-                            placeholder="Барсик" />
+                            placeholder="Барсик" >
                     </div>
                     <div class="form__item">
                         <label for="weight" class="form__label">Вес (кг):*</label>
                         <input id="weight" name="weight" class="form__input form__input_type_number" type="number"
-                            placeholder="7" />
+                            placeholder="7" >
                     </div>
                     <div class="form__item">
                         <label for="age" class="form__label">Возраст (лет):</label>
                         <input id="age" name="age" class="form__input form__input_type_number" type="number"
-                            placeholder="7" />
+                            placeholder="7" >
                     </div>
                 </section>
                 <section class="form__section_delimiter_true">
                     <div class="form__item">
-                        <input id="weight-loss" name="weight" value="weight-loss"
-                            class="form__input form__input_type_radio" type="radio" checked />
+                        <input id="weight-loss" name="weight1" value="weight-loss"
+                            class="form__input form__input_type_radio" type="radio" checked >
                         <label for="weight-loss" class="form__label">Похудение</label>
                     </div>
                     <div class="form__item">
-                        <input id="weight-gain" name="weight" value="weight-gain"
-                            class="form__input form__input_type_radio" type="radio" />
+                        <input id="weight-gain" name="weight1" value="weight-gain"
+                            class="form__input form__input_type_radio" type="radio" >
                         <label for="weight-gain" class="form__label">Набор массы</label>
                     </div>
                     <div class="form__item">
-                        <input id="advice" name="weight" value="advice" class="form__input form__input_type_radio"
-                            type="radio" />
+                        <input id="advice" name="weight1" value="advice" class="form__input form__input_type_radio"
+                            type="radio" >
                         <label for="advice" class="form__label">Не знаю (Нужен ваш совет)</label>
                     </div>
                 </section>
@@ -74,12 +80,12 @@
                 <div class="form__item form__item_gap">
                     <label for="email" class="form__label">E-mail:*</label>
                     <input id="email" name="email" class="form__input form__input_type_email" type="email"
-                        placeholder="kuklachev@gmail.com" />
+                        placeholder="kuklachev@gmail.com" >
                 </div>
                 <div class="form__item">
                     <label for="phone" class="form__label">Телефон:*</label>
                     <input id="phone" name="phone" class="form__input form__input_type_text" type="text"
-                        placeholder="8 (960) 900-60-90" />
+                        placeholder="8 (960) 900-60-90" >
                 </div>
             </section>
             <h2 class="form__section-title">Комментарий</h2>
@@ -92,26 +98,26 @@
                 <ul class="form__list flex flex__columns_four">
                     <li class="form__item">
                         <input id="sweetener" name="sweetener" class="form__input form__input_type_checkbox"
-                            type="checkbox" />
+                            type="checkbox" >
                         <label for="sweetener" class="form__label">Сахарозаменитель</label>
                     </li>
                     <li class="form__item">
-                        <input id="water" name="water" class="form__input form__input_type_checkbox" type="checkbox" />
+                        <input id="water" name="water" class="form__input form__input_type_checkbox" type="checkbox" >
                         <label for="water" class="form__label">Питьевая вода</label>
                     </li>
                     <li class="form__item">
-                        <input id="milk" name="milk" class="form__input form__input_type_checkbox" type="checkbox" />
+                        <input id="milk" name="milk" class="form__input form__input_type_checkbox" type="checkbox" >
                         <label for="milk" class="form__label">Молоко</label>
                     </li>
                     <li class="form__item">
                         <input id="vitamin" name="vitamin" class="form__input form__input_type_checkbox"
-                            type="checkbox" />
+                            type="checkbox" >
                         <label for="vitamin" class="form__label">Витамины</label>
                     </li>
                 </ul>
             </section>
             <section class="form__section_delimiter_false">
-                <button class="form__button" type="submit">Отправить заявку</button>
+                <button type="submit" class="form__button">Отправить заявку</button>
                 <p class="form__text">* — Обязательные поля</p>
             </section>
         </form>
@@ -123,21 +129,21 @@
                 <p class="invite__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
             </div>
             <div class="invite__map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257197582!2d30.320472476300868!3d59.938719162094564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1700938017285!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257197582!2d30.320472476300868!3d59.938719162094564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1700938017285!5m2!1sru!2sru" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
         <section class="footer__content">
             <div class="footer__title">
-                <img class="footer__title" src="images/footer-logo.svg" />
+                <img class="footer__title" src="images/footer-logo.svg" alt="pic">
             </div>
             <div class="footer__socials">
-                <img src="images/m-vk.svg" />
-                <img src="images/m-insta.svg" />
-                <img src="images/m-fb.svg" />
+                <img src="images/m-vk.svg" alt="pic">
+                <img src="images/m-insta.svg" alt="pic">
+                <img src="images/m-fb.svg" alt="pic">
             </div>
             <div class="footer__academy">
                 <span class="footer__item">HTML Academy</span>
-                <img class="footer__item" src="images/htmlacademy.svg" />
+                <img class="footer__item" src="images/htmlacademy.svg" alt="pic">
             </div>
         </section>
     </footer>

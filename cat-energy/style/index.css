@@ -780,6 +780,12 @@
   cursor: pointer;
 }
 
+.before-after__picture {
+  display: grid;
+  transition: initial;
+  grid-template-columns: 1fr 50%;
+}
+
 @media (min-width: 700px) {
   .before-after__title {
     font-size: 36pt;
@@ -2074,9 +2080,14 @@
 
 /* Внешний отступ сверху */
 
+body {
+  overflow-x: hidden;
+}
+
 .page {
   --bgr-default: transparent;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .page__title {
