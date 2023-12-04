@@ -13,7 +13,6 @@
   transition: all 1s ease-out 0s;
   line-height: 1em;
   text-wrap: nowrap;
-  width: 100%;
 }
 
 .about__bg-text--left {
@@ -424,7 +423,8 @@ header a:hover {
   border: 2px solid var(--highlight-color-2);
   cursor: pointer;
 }
-body {
+body,
+.page {
   margin: 0;
   overflow-x: hidden;
 }
