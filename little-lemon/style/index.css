@@ -47,6 +47,21 @@
     width: 70%;
   }
 }
+@keyframes scale-in {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animation__scale-in {
+  animation: scale-in 1.5s alternate ease-in both;
+}
 footer {
   display: flex;
   flex-flow: row wrap;
@@ -95,7 +110,7 @@ header {
 }
 
 .header__bar {
-  padding: 12px var(--col-1);
+  padding: 12px 5%;
   display: flex;
   justify-content: space-between;
   width: 100vw;
@@ -141,8 +156,9 @@ header {
   }
 
   .header__nav {
-    flex-direction: row-reverse;
+    flex-direction: row;
     gap: 5%;
+    justify-content: center;
     align-items: center;
   }
 }
@@ -164,6 +180,10 @@ header a:hover {
   text-align: center;
   height: 100vh;
   position: relative;
+}
+
+.hero__title {
+  margin-top: 5%;
 }
 
 @keyframes pizza {
