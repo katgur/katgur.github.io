@@ -6,7 +6,6 @@
 
     <link rel="icon" href="/logo2.png">
     <link rel="apple-touch-icon" href="/logo2.png">
-    <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -23,13 +22,13 @@
         <header>
             <div class="header__bar">
                 <picture>
-                    <source width="100%" media="(min-width: 768px)" srcset="./img/Logo.svg">
-                    <img width="40" src="./img/Asset 9@4x.png" alt="logo">
+                    <source width="90%" media="(min-width: 768px)" srcset="./img/Logo.svg">
+                    <img width="32px" src="./img/Asset 9@4x.png" alt="logo">
                 </picture>
-                <img class="header__menu" src="./img/icon-menu.svg" alt="menu">
-                <img class="header__close" src="./img/icon-menu-close.svg" alt="close">
+                <img class="header__menu header__none" src="./img/icon-menu.svg" alt="menu">
+                <img class="header__close header__none" src="./img/icon-menu-close.svg" alt="close">
             </div>
-            <nav class="header__nav">
+            <nav class="header__nav header__none">
                 <a class="header__item section-title" href="#home">home</a>
                 <a class="header__item section-title" href="#about">about</a>
                 <a class="header__item section-title" href="#menu">menu</a>
@@ -38,7 +37,7 @@
         </header>
         <main>
             <section class="hero">
-                <div>
+                <div class="hero__title">
                     <h1 class="display-title">Little Lemon</h1>
                     <p class="card-title">family-owned Mediterranean restaurant</p>
                 </div>
@@ -55,7 +54,7 @@
                     <img class="hero__chevron" src="./img/chevron.svg" alt="chevron">
                 </div>
             </section>
-            <section class="about">
+            <section class="about animation">
                 <h2 class="about__title display-title">
                     About Little Lemon
                 </h2>
@@ -74,7 +73,7 @@
                     Adventurous dining for those with a curious palate
                 </div>
             </section>
-            <section class="highlights">
+            <section class="highlights animation">
                 <div class="highlights__bar">
                     <h2 class="subtitle highlights__title">Specials</h2>
                 </div>
@@ -115,7 +114,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="testimonials">
+            <section class="testimonials animation">
                 <h2 class="display-title">Testimonials</h2>
                 <div class="mySwiper">
                     <div class="swiper-wrapper testimonials__list">
@@ -177,7 +176,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </section>
-            <section class="newletter">
+            <section class="newletter animation">
                 <h2 class="subtitle">
                     Newsletter
                 </h2>
