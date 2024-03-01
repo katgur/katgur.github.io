@@ -3,6 +3,6 @@
 * [Manage Landing Page](https://katgur.github.io/manage-landing-page)
 * [E-commerce product page](https://katgur.github.io/ecommerce-product-page)
 * [Little Lemon](https://katgur.github.io/little-lemon)
-* [Easy Bank](https://katgur.github.io/easy-bank)
+* [EasyBank](https://katgur.github.io/easybank)
 * [Bookmark](https://katgur.github.io/bookmark)
 * [FAQ Accordion](https://katgur.github.io/faq-accordion)
